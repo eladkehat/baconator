@@ -20,7 +20,7 @@ def write_names(fp, var, first_last, index):
 
 if __name__ == '__main__':
     names = load_names()
-    names_py = pathlib.Path(__file__).parents[1] / 'names.py'
+    names_py = pathlib.Path(__file__).parents[1] / 'baconator' / 'names.py'
     with open(names_py, 'w') as fp:
         fp.write('# This file was automatically generated.\n')
         fp.write(f'# See {__file__}.\n\n')
