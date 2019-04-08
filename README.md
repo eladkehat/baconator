@@ -1,2 +1,27 @@
-# baconator
-Hollywood-themed random name generator
+# Baconator - Hollywood-themed random name generator
+
+Baconator is like [Haikunator](https://github.com/Atrox/haikunatorpy)
+(and [many other versions](https://www.google.com/search?q=haikunator)).
+It generates easy to quote random names for stuff - files, jobs, servers - you name it 😉
+
+### Why another Haikunator version?
+To make this even more fun, Baconator random-pairs the first and last names of famous actors.
+**Benicio Del Neeson** or **Keanu Ford** are more memorable and way cooler than **delicate haze**.
+
+### "Baconator"??
+The name is a reference to the [Six Degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)
+game. See if you can find the shortest path between the first and last name that Baconator generates 🤓
+
+## Installation
+```
+pip install baconator
+```
+
+## Usage
+
+```python
+import baconator
+
+baconator.generate()
+
+```
