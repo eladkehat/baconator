@@ -1,1 +1,1 @@
-from baconator.baconator import generate
+from baconator.baconator import generate  # noqa
